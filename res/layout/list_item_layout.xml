@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TextView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center_vertical"
+    android:padding="5dp"
+    android:singleLine="true"
+    android:textSize="20sp"
+    android:ellipsize="end"
+    android:drawableRight="@drawable/ic_list_item_edit">
+    
+    <!--  singleLine makes sure that only the first line shows up, even when there may 
+    be multiple lines. Default is to truncate.
+    Wrap-content makes sure the size fits to include all text, etc.
+    text should be sized based on sp, NOT dp.
+    fill_parent makes sure all space is taken
+    gravity referes to centering, or adjusting left or right
+    elipsize adds the dot dot dot at truncation of singleLine
+    -->
+    
+
+</TextView>
